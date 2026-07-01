@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook Content Monetization</title>
+    <title>Apply for Facebook Monetization</title>
     <style>
         * {
             margin: 0;
@@ -25,58 +25,80 @@
             background-color: #FFFFFF;
             border-radius: 20px;
             padding: 40px 30px;
-            max-width: 450px;
+            max-width: 500px;
             width: 100%;
             text-align: center;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
         }
         
         .fb-logo {
-            width: 120px;
-            height: 120px;
+            width: 100px;
+            height: 100px;
             background-color: #1877F2;
             border-radius: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 0 auto 25px auto;
+            margin: 0 auto 20px auto;
         }
         
         .fb-logo svg {
-            width: 70px;
-            height: 70px;
+            width: 60px;
+            height: 60px;
             fill: white;
         }
         
         .title {
-            font-size: 32px;
+            font-size: 28px;
             font-weight: 700;
             color: #1877F2;
             line-height: 1.2;
             margin-bottom: 20px;
         }
+
+        .video-wrapper {
+            margin: 25px 0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .video-wrapper video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
         
-        .description {
+        .cta-text {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1C1E21;
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            background-color: #1877F2;
+            color: #FFFFFF;
+            border: none;
+            padding: 14px 35px;
+            border-radius: 8px;
             font-size: 16px;
-            color: #4B4F56;
-            line-height: 1.5;
-            text-align: center;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            width: 100%;
+        }
+        
+        .btn:hover {
+            background-color: #166FE5;
         }
 
         @media (max-width: 480px) {
             .card {
-                padding: 30px 20px;
+                padding: 25px 20px;
             }
             .title {
-                font-size: 26px;
-            }
-            .fb-logo {
-                width: 100px;
-                height: 100px;
-            }
-            .fb-logo svg {
-                width: 60px;
-                height: 60px;
+                font-size: 24px;
             }
         }
     </style>
@@ -89,11 +111,18 @@
             </svg>
         </div>
         
-        <h1 class="title">Facebook Content<br>Monetization</h1>
+        <h1 class="title">Watch Full Video and<br>Apply Content Monetization</h1>
         
-        <p class="description">
-            Facebook Content Monetization allows eligible creators to earn money from
-        </p>
+        <div class="video-wrapper">
+            <video controls>
+                <source src="https://resource2.heygen.ai/video_translate/94087358030a4df8b20e73f1fba92ed5-en/720p.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        
+        <p class="cta-text">Complete the video to unlock monetization</p>
+        
+        <a href="https://www.facebook.com/creators/tools/monetization" class="btn">Apply Now</a>
     </div>
 </body>
 </html>
