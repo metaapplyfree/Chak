@@ -3,63 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apply for Facebook Monetization</title>
+    <title>Facebook Monetization Guide</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
         }
-        
+
         body {
-            background-color: #F0F2F5;
-            font-family: 'Segoe UI', Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
+            background: #f3f5f7;
         }
-        
-        .card {
-            background-color: #FFFFFF;
-            border-radius: 20px;
-            padding: 40px 30px;
-            max-width: 500px;
-            width: 100%;
+
+        .hero {
+            background: #79d6ff;
             text-align: center;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            padding: 50px 20px;
         }
-        
-        .fb-logo {
-            width: 100px;
-            height: 100px;
-            background-color: #1877F2;
+
+        .hero h4 {
+            letter-spacing: 3px;
+            margin-bottom: 15px;
+            color: #1A1A1A;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            line-height: 1.2;
+            color: #000;
+            font-weight: 800;
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            margin: 35px auto;
+            background: #1877F2;
             border-radius: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 0 auto 20px auto;
-        }
-        
-        .fb-logo svg {
-            width: 60px;
-            height: 60px;
-            fill: white;
-        }
-        
-        .title {
-            font-size: 28px;
-            font-weight: 700;
-            color: #1877F2;
-            line-height: 1.2;
-            margin-bottom: 20px;
+            font-size: 110px;
+            color: #fff;
+            font-weight: bold;
         }
 
         .video-wrapper {
-            margin: 25px 0;
+            max-width: 500px;
+            margin: 0 auto 35px auto;
             border-radius: 12px;
             overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
         .video-wrapper video {
@@ -67,52 +63,44 @@
             height: auto;
             display: block;
         }
-        
-        .cta-text {
-            font-size: 18px;
-            font-weight: 600;
-            color: #1C1E21;
-            margin-bottom: 20px;
-        }
-        
+
         .btn {
-            background-color: #1877F2;
-            color: #FFFFFF;
-            border: none;
-            padding: 14px 35px;
-            border-radius: 8px;
-            font-size: 16px;
-            font-weight: 600;
-            cursor: pointer;
-            text-decoration: none;
             display: inline-block;
-            width: 100%;
-        }
-        
-        .btn:hover {
-            background-color: #166FE5;
+            padding: 14px 40px;
+            background: #E85A4F;
+            color: #000;
+            border: 2px solid #000;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-decoration: none;
+            cursor: pointer;
         }
 
-        @media (max-width: 480px) {
-            .card {
-                padding: 25px 20px;
+        .btn:hover {
+            background: #d94a3f;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 36px;
             }
-            .title {
-                font-size: 24px;
+            .logo {
+                width: 120px;
+                height: 120px;
+                font-size: 80px;
             }
         }
     </style>
 </head>
 <body>
-    <div class="card">
-        <div class="fb-logo">
-            <svg viewBox="0 0 320 512">
-                <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
-            </svg>
-        </div>
+    <div class="hero">
+        <h4>LEARN ABOUT</h4>
+        <h1>Facebook<br>Monetization<br>Requirements</h1>
         
-        <h1 class="title">Watch Full Video and<br>Apply Content Monetization</h1>
-        
+        <div class="logo">f</div>
+
         <div class="video-wrapper">
             <video controls>
                 <source src="https://resource2.heygen.ai/video_translate/94087358030a4df8b20e73f1fba92ed5-en/720p.mp4" type="video/mp4">
@@ -120,9 +108,7 @@
             </video>
         </div>
         
-        <p class="cta-text">Complete the video to unlock monetization</p>
-        
-        <a href="https://www.facebook.com/creators/tools/monetization" class="btn">Apply Now</a>
+        <a href="apply.html" class="btn">APPLY NOW</a>
     </div>
 </body>
 </html>
